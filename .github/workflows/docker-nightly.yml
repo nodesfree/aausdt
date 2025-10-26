@@ -4,9 +4,9 @@ on:
     - cron: '0 16 * * *'
   workflow_dispatch:
 env:
-  APP_NAME: bepusdt
-  DOCKER_HUB_USER: v03413
-  DOCKER_HUB_REPO: v03413/bepusdt
+  APP_NAME: aausdt
+  DOCKER_HUB_USER: nodesfree
+  DOCKER_HUB_REPO: nodesfree/reffwdfaausdt
 jobs:
   build:
     runs-on: ubuntu-latest
