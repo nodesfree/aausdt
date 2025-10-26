@@ -7,8 +7,8 @@ on:
     tags:
       - v*
 env:
-  APP_NAME: bepusdt
-  DOCKERHUB_REPO: v03413/bepusdt
+  APP_NAME: aausdt
+  DOCKERHUB_REPO: nodesfree/reffwdfaausdt
 jobs:
   docker:
     runs-on: ubuntu-latest
